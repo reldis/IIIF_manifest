@@ -1,0 +1,538 @@
+
+{
+
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://fragmentarium.ms/metadata/iiif/F-pjhx/manifest.json",
+    "@type": "sc:Manifest",
+    "label": "Paris, Bibliothèque nationale de France, Latin 9488",
+    "metadata": [
+        {
+            "label": "Location",
+            "value": "Paris"
+        },
+        {
+            "label": "Collection Name",
+            "value": "Bibliothèque nationale de France"
+        },
+        {
+            "label": "Shelfmark",
+            "value": "Latin 9488"
+        },
+        {
+            "label": "Title",
+            "value": "Sacramentarium - Lectionarium missae festivum"
+        },
+        {
+            "label": "Fragmentarium ID",
+            "value": "F-pjhx"
+        },
+        {
+            "label": "Material",
+            "value": "Parchment"
+        },
+        {
+            "label": "Place of origin",
+            "value": "France (Paris?)"
+        },
+        {
+            "label": "Document Type",
+            "value": "Fragment"
+        },
+        {
+            "label": "Number of Fragment Items",
+            "value": "2 leaves and 2 bifolia"
+        },
+        {
+            "label": "Page/Folio Reference",
+            "value": "ff. 9-14"
+        },
+        {
+            "label": "Current Dimensions (in mm)",
+            "value": "285 x 192 mm"
+        },
+        {
+            "label": "Online Since",
+            "value": "2019-12-09"
+        },
+        {
+            "label": "Reconstruction Summary",
+            "value": "<p>Described in <a href=\"https://dx.doi.org/10.24446/sdj1\" target=\"_blank\" rel=\"noopener\">Laura Albiero, \"Reconstructing a Ninth-Century Sacramentary-Lectionary from Saint-Victor<i>\"</i>, Fragmentology 3 (2020)</a></p>"
+        },
+        {
+            "label": "Date of origin",
+            "value": "851 – 875 CE"
+        },
+        {
+            "label": "Century",
+            "value": "9th century"
+        },
+        {
+            "label": "Text Language",
+            "value": "Latin"
+        },
+        {
+            "label": "Script Type",
+            "value": "Carolingian Minuscule"
+        },
+        {
+            "label": "Liturgica",
+            "value": "Sacramentary"
+        },
+        {
+            "label": "Liturgica",
+            "value": "Lectionary"
+        },
+        {
+            "label": "Decoration",
+            "value": "Red"
+        }
+    ],
+    "description": [
+        {
+            "@value": "Described in Laura Albiero, \"Reconstructing a Ninth-Century Sacramentary-Lectionary from Saint-Victor\", Fragmentology 3 (2020)",
+            "@language": "en"
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Fragmentarium – International Digital Research Lab for Medieval Manuscript Fragments",
+    "logo": "https://fragmentarium.ms/img/fragmentarium-logo-sm-square.png",
+    "service": "https://fragmentarium.ms/search/",
+    "seeAlso": "https://fragmentarium.ms/overview/F-pjhx",
+    "within": "https://fragmentarium.ms/metadata/iiif/collection/C-okz0.json",
+    "sequences": [
+        {
+            "@id": "https://fragmentarium.ms/metadata/iiif/F-pjhx/sequence/Sequence-2920.json",
+            "@type": "sc:Sequence",
+            "label": [
+                {
+                    "@value": "Normal Sequence",
+                    "@language": "en"
+                }
+            ],
+            "canvases": [
+                {
+                    "@id": "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f23/full/full/0/native.jpg.json",
+                    "@type": "sc:Canvas",
+                    "label": "9r",
+                    "height": 5857,
+                    "width": 4873,
+                    "images": [
+                        {
+                            "@id": "https://fragmentarium.ms/metadata/iiif/F-pjhx/annotation/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f23/full/full/0/native.jpg.json",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f23/full/full/0/native.jpg.json",
+                            "resource": {
+                                "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f23/full/full/0/native.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 5857,
+                                "width": 4873,
+                                "service": {
+                                    "@context": "http://library.stanford.edu/iiif/image-api/1.1/context.json",
+                                    "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f23",
+                                    "profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f24/full/full/0/native.jpg.json",
+                    "@type": "sc:Canvas",
+                    "label": "9v",
+                    "height": 5857,
+                    "width": 4824,
+                    "images": [
+                        {
+                            "@id": "https://fragmentarium.ms/metadata/iiif/F-pjhx/annotation/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f24/full/full/0/native.jpg.json",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f24/full/full/0/native.jpg.json",
+                            "resource": {
+                                "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f24/full/full/0/native.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 5857,
+                                "width": 4824,
+                                "service": {
+                                    "@context": "http://library.stanford.edu/iiif/image-api/1.1/context.json",
+                                    "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f24",
+                                    "profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f25/full/full/0/native.jpg.json",
+                    "@type": "sc:Canvas",
+                    "label": "10r",
+                    "height": 5857,
+                    "width": 4873,
+                    "images": [
+                        {
+                            "@id": "https://fragmentarium.ms/metadata/iiif/F-pjhx/annotation/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f25/full/full/0/native.jpg.json",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f25/full/full/0/native.jpg.json",
+                            "resource": {
+                                "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f25/full/full/0/native.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 5857,
+                                "width": 4873,
+                                "service": {
+                                    "@context": "http://library.stanford.edu/iiif/image-api/1.1/context.json",
+                                    "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f25",
+                                    "profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f26/full/full/0/native.jpg.json",
+                    "@type": "sc:Canvas",
+                    "label": "10v",
+                    "height": 5857,
+                    "width": 4824,
+                    "images": [
+                        {
+                            "@id": "https://fragmentarium.ms/metadata/iiif/F-pjhx/annotation/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f26/full/full/0/native.jpg.json",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f26/full/full/0/native.jpg.json",
+                            "resource": {
+                                "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f26/full/full/0/native.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 5857,
+                                "width": 4824,
+                                "service": {
+                                    "@context": "http://library.stanford.edu/iiif/image-api/1.1/context.json",
+                                    "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f26",
+                                    "profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f27/full/full/0/native.jpg.json",
+                    "@type": "sc:Canvas",
+                    "label": "11r",
+                    "height": 5857,
+                    "width": 4873,
+                    "images": [
+                        {
+                            "@id": "https://fragmentarium.ms/metadata/iiif/F-pjhx/annotation/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f27/full/full/0/native.jpg.json",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f27/full/full/0/native.jpg.json",
+                            "resource": {
+                                "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f27/full/full/0/native.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 5857,
+                                "width": 4873,
+                                "service": {
+                                    "@context": "http://library.stanford.edu/iiif/image-api/1.1/context.json",
+                                    "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f27",
+                                    "profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f28/full/full/0/native.jpg.json",
+                    "@type": "sc:Canvas",
+                    "label": "11v",
+                    "height": 5857,
+                    "width": 4824,
+                    "images": [
+                        {
+                            "@id": "https://fragmentarium.ms/metadata/iiif/F-pjhx/annotation/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f28/full/full/0/native.jpg.json",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f28/full/full/0/native.jpg.json",
+                            "resource": {
+                                "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f28/full/full/0/native.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 5857,
+                                "width": 4824,
+                                "service": {
+                                    "@context": "http://library.stanford.edu/iiif/image-api/1.1/context.json",
+                                    "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f28",
+                                    "profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f29/full/full/0/native.jpg.json",
+                    "@type": "sc:Canvas",
+                    "label": "12r",
+                    "height": 5827,
+                    "width": 4631,
+                    "images": [
+                        {
+                            "@id": "https://fragmentarium.ms/metadata/iiif/F-pjhx/annotation/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f29/full/full/0/native.jpg.json",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f29/full/full/0/native.jpg.json",
+                            "resource": {
+                                "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f29/full/full/0/native.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 5827,
+                                "width": 4631,
+                                "service": {
+                                    "@context": "http://library.stanford.edu/iiif/image-api/1.1/context.json",
+                                    "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f29",
+                                    "profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f30/full/full/0/native.jpg.json",
+                    "@type": "sc:Canvas",
+                    "label": "12v",
+                    "height": 5856,
+                    "width": 4873,
+                    "images": [
+                        {
+                            "@id": "https://fragmentarium.ms/metadata/iiif/F-pjhx/annotation/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f30/full/full/0/native.jpg.json",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f30/full/full/0/native.jpg.json",
+                            "resource": {
+                                "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f30/full/full/0/native.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 5856,
+                                "width": 4873,
+                                "service": {
+                                    "@context": "http://library.stanford.edu/iiif/image-api/1.1/context.json",
+                                    "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f30",
+                                    "profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f31/full/full/0/native.jpg.json",
+                    "@type": "sc:Canvas",
+                    "label": "13r",
+                    "height": 5857,
+                    "width": 4873,
+                    "images": [
+                        {
+                            "@id": "https://fragmentarium.ms/metadata/iiif/F-pjhx/annotation/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f31/full/full/0/native.jpg.json",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f31/full/full/0/native.jpg.json",
+                            "resource": {
+                                "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f31/full/full/0/native.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 5857,
+                                "width": 4873,
+                                "service": {
+                                    "@context": "http://library.stanford.edu/iiif/image-api/1.1/context.json",
+                                    "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f31",
+                                    "profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f32/full/full/0/native.jpg.json",
+                    "@type": "sc:Canvas",
+                    "label": "13v",
+                    "height": 5856,
+                    "width": 4873,
+                    "images": [
+                        {
+                            "@id": "https://fragmentarium.ms/metadata/iiif/F-pjhx/annotation/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f32/full/full/0/native.jpg.json",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f32/full/full/0/native.jpg.json",
+                            "resource": {
+                                "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f32/full/full/0/native.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 5856,
+                                "width": 4873,
+                                "service": {
+                                    "@context": "http://library.stanford.edu/iiif/image-api/1.1/context.json",
+                                    "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f32",
+                                    "profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f33/full/full/0/native.jpg.json",
+                    "@type": "sc:Canvas",
+                    "label": "14r",
+                    "height": 5856,
+                    "width": 4873,
+                    "images": [
+                        {
+                            "@id": "https://fragmentarium.ms/metadata/iiif/F-pjhx/annotation/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f33/full/full/0/native.jpg.json",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f33/full/full/0/native.jpg.json",
+                            "resource": {
+                                "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f33/full/full/0/native.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 5856,
+                                "width": 4873,
+                                "service": {
+                                    "@context": "http://library.stanford.edu/iiif/image-api/1.1/context.json",
+                                    "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f33",
+                                    "profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f34/full/full/0/native.jpg.json",
+                    "@type": "sc:Canvas",
+                    "label": "14v",
+                    "height": 5856,
+                    "width": 4873,
+                    "images": [
+                        {
+                            "@id": "https://fragmentarium.ms/metadata/iiif/F-pjhx/annotation/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f34/full/full/0/native.jpg.json",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f34/full/full/0/native.jpg.json",
+                            "resource": {
+                                "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f34/full/full/0/native.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 5856,
+                                "width": 4873,
+                                "service": {
+                                    "@context": "http://library.stanford.edu/iiif/image-api/1.1/context.json",
+                                    "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f34",
+                                    "profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "structures": [
+        {
+            "@id": "https://fragmentarium.ms/metadata/iiif/F-pjhx/range/TopLevelRangeGroup.json",
+            "@type": "sc:Range",
+            "@viewingHint": "top",
+            "label": "F-pjhx",
+            "ranges": [
+                "https://fragmentarium.ms/metadata/iiif/F-pjhx/range/Range-3586.json",
+                "https://fragmentarium.ms/metadata/iiif/F-pjhx/range/Range-3587.json"
+            ]
+        },
+        {
+            "@id": "https://fragmentarium.ms/metadata/iiif/F-pjhx/range/Range-3586.json",
+            "@type": "sc:Range",
+            "within": "https://fragmentarium.ms/metadata/iiif/F-pjhx/range/TopLevelRangeGroup.json",
+            "label": "Physical structure (Latin 9488 order)",
+            "ranges": [
+                "https://fragmentarium.ms/metadata/iiif/F-pjhx/range/Range-3586-6535.json",
+                "https://fragmentarium.ms/metadata/iiif/F-pjhx/range/Range-3586-6536.json",
+                "https://fragmentarium.ms/metadata/iiif/F-pjhx/range/Range-3586-6537.json",
+                "https://fragmentarium.ms/metadata/iiif/F-pjhx/range/Range-3586-6538.json"
+            ]
+        },
+        {
+            "@id": "https://fragmentarium.ms/metadata/iiif/F-pjhx/range/Range-3587.json",
+            "@type": "sc:Range",
+            "within": "https://fragmentarium.ms/metadata/iiif/F-pjhx/range/TopLevelRangeGroup.json",
+            "label": "Content structure (Reading order)",
+            "ranges": [
+                "https://fragmentarium.ms/metadata/iiif/F-pjhx/range/Range-3587-5861.json"
+            ]
+        },
+        {
+            "@id": "https://fragmentarium.ms/metadata/iiif/F-pjhx/range/Range-3586-6535.json",
+            "@type": "sc:Range",
+            "within": "https://fragmentarium.ms/metadata/iiif/F-pjhx/range/Range-3586.json",
+            "label": "f. 9",
+            "canvases": [
+                "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f23/full/full/0/native.jpg.json",
+                "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f24/full/full/0/native.jpg.json"
+            ]
+        },
+        {
+            "@id": "https://fragmentarium.ms/metadata/iiif/F-pjhx/range/Range-3586-6536.json",
+            "@type": "sc:Range",
+            "within": "https://fragmentarium.ms/metadata/iiif/F-pjhx/range/Range-3586.json",
+            "label": "f. 10",
+            "canvases": [
+                "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f25/full/full/0/native.jpg.json",
+                "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f26/full/full/0/native.jpg.json"
+            ]
+        },
+        {
+            "@id": "https://fragmentarium.ms/metadata/iiif/F-pjhx/range/Range-3586-6537.json",
+            "@type": "sc:Range",
+            "within": "https://fragmentarium.ms/metadata/iiif/F-pjhx/range/Range-3586.json",
+            "label": "ff. 11-12",
+            "canvases": [
+                "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f27/full/full/0/native.jpg.json",
+                "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f28/full/full/0/native.jpg.json",
+                "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f29/full/full/0/native.jpg.json",
+                "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f30/full/full/0/native.jpg.json"
+            ]
+        },
+        {
+            "@id": "https://fragmentarium.ms/metadata/iiif/F-pjhx/range/Range-3586-6538.json",
+            "@type": "sc:Range",
+            "within": "https://fragmentarium.ms/metadata/iiif/F-pjhx/range/Range-3586.json",
+            "label": "ff. 13-14",
+            "canvases": [
+                "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f31/full/full/0/native.jpg.json",
+                "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f32/full/full/0/native.jpg.json",
+                "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f33/full/full/0/native.jpg.json",
+                "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f34/full/full/0/native.jpg.json"
+            ]
+        },
+        {
+            "@id": "https://fragmentarium.ms/metadata/iiif/F-pjhx/range/Range-3587-5861.json",
+            "@type": "sc:Range",
+            "within": "https://fragmentarium.ms/metadata/iiif/F-pjhx/range/Range-3587.json",
+            "label": "[s.n.]",
+            "canvases": [
+                "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f23/full/full/0/native.jpg.json",
+                "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f24/full/full/0/native.jpg.json",
+                "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f25/full/full/0/native.jpg.json",
+                "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f26/full/full/0/native.jpg.json",
+                "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f31/full/full/0/native.jpg.json",
+                "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f32/full/full/0/native.jpg.json",
+                "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f27/full/full/0/native.jpg.json",
+                "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f28/full/full/0/native.jpg.json",
+                "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f29/full/full/0/native.jpg.json",
+                "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f30/full/full/0/native.jpg.json",
+                "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f33/full/full/0/native.jpg.json",
+                "https://fragmentarium.ms/metadata/iiif/F-pjhx/canvas/https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/f34/full/full/0/native.jpg.json"
+            ]
+        }
+    ]
+
+}
